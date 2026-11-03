@@ -1,0 +1,1 @@
+Preserve the six requirement IDs D1–D6 while replacing every placeholder with your own sourced content and design decisions. Bring forward your Module 1 reset, tokens, and typography. Do not use JavaScript. The Canvas assessment page defines the required evidence, tests, submission, AI boundaries, and rubric.

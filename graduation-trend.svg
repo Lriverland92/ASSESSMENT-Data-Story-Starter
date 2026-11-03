@@ -1,0 +1,79 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="chart-title chart-desc">
+    <title id="chart-title">U.S. College Graduation Rates, 2015–2024</title>
+    <desc id="chart-desc">Line chart showing six-year bachelor's degree completion rates increasing from 59.4 percent in 2015 to 64.8 percent in 2024.</desc>
+  
+    <style>
+      :root {
+        --graphic-primary: #8c1d40;
+        --graphic-accent: #ffc627;
+        --graphic-text: #404040;
+        --graphic-surface: #ffffff;
+      }
+  
+      text {
+        font-family: Arial, sans-serif;
+        fill: var(--graphic-text);
+      }
+    </style>
+  
+    <rect width="800" height="450" fill="var(--graphic-surface)"/>
+  
+    <text x="400" y="45" text-anchor="middle" font-size="24" font-weight="bold">
+      Six-Year Graduation Rates
+    </text>
+  
+    <text x="400" y="75" text-anchor="middle" font-size="15">
+      U.S. Four-Year Institutions
+    </text>
+  
+    <path d="M90 115 V315 H720" fill="none" stroke="var(--graphic-text)" stroke-width="2"/>
+  
+    <g font-size="14" text-anchor="end">
+      <text x="78" y="320">55%</text>
+      <text x="78" y="240">60%</text>
+      <text x="78" y="160">65%</text>
+    </g>
+  
+    <g stroke="#dddddd" stroke-dasharray="4 4">
+      <path d="M90 235 H720"/>
+      <path d="M90 155 H720"/>
+    </g>
+  
+    <polyline
+      points="90,244.6 160,239.8 230,228.6 300,196.6 370,180.6 440,171 510,161.4 580,161.4 650,161.4 720,158.2"
+      fill="none"
+      stroke="var(--graphic-primary)"
+      stroke-width="5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  
+    <g fill="var(--graphic-accent)" stroke="var(--graphic-primary)" stroke-width="2">
+      <circle cx="90" cy="244.6" r="6"/>
+      <circle cx="160" cy="239.8" r="6"/>
+      <circle cx="230" cy="228.6" r="6"/>
+      <circle cx="300" cy="196.6" r="6"/>
+      <circle cx="370" cy="180.6" r="6"/>
+      <circle cx="440" cy="171" r="6"/>
+      <circle cx="510" cy="161.4" r="6"/>
+      <circle cx="580" cy="161.4" r="6"/>
+      <circle cx="650" cy="161.4" r="6"/>
+      <circle cx="720" cy="158.2" r="6"/>
+    </g>
+  
+    <g font-size="15" text-anchor="middle">
+      <text x="90" y="345">2015</text>
+      <text x="300" y="345">2018</text>
+      <text x="510" y="345">2021</text>
+      <text x="720" y="345">2024</text>
+    </g>
+  
+    <text x="90" y="225" font-size="17" font-weight="bold">59.4%</text>
+    <text x="720" y="135" font-size="17" font-weight="bold" text-anchor="end">64.8%</text>
+  
+    <text x="400" y="405" text-anchor="middle" font-size="13">
+      Source: NCES, IPEDS Graduation Rates
+    </text>
+  </svg>
+  
